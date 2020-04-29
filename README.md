@@ -93,6 +93,9 @@ important one is usually `root`, which is the MAAGIC root object. It
 represents the root of the YANG model. As seen above, you can use it to
 navigate anywhere in the YANG.
 
+If a keypath was given to the ipython cli command, a MAAGIC object named
+'path' will be available bound the the keypath provided as input.
+
 The current transaction object is available as `trans`. You can use
 this object to run a query:
 
