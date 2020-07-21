@@ -13,6 +13,12 @@
           </options>
         </exec>
       </callback>
+      <params>
+        <param>
+          <type><keypath>exist</keypath></type>
+          <optional/>
+        </param>
+      </params>
     </cmd>
   </operationalMode>
   <configureMode>
@@ -29,6 +35,12 @@
           </options>
         </exec>
       </callback>
+      <params>
+        <param>
+          <type><keypath>exist</keypath></type>
+          <optional/>
+        </param>
+      </params>
     </cmd>
   </configureMode>
 </clispec>
