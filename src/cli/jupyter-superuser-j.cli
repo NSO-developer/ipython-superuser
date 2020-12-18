@@ -1,0 +1,46 @@
+<clispec xmlns="http://tail-f.com/ns/clispec/1.0" style="j">
+  <operationalMode>
+    <cmd name="jupyter">
+      <info>Open Jupyter Notebook</info>
+      <help>Open Jupyter Notebook</help>
+      <callback>
+        <exec>
+          <osCommand>jupyter</osCommand>
+          <args>notebook packages/ipython-superuser/python/jupyter-superuser.ipynb</args>
+          <options>
+            <uid>user</uid>
+            <gid>user</gid>
+          </options>
+        </exec>
+      </callback>
+      <params>
+        <param>
+          <type><keypath>exist</keypath></type>
+          <optional/>
+        </param>
+      </params>
+    </cmd>
+  </operationalMode>
+  <configureMode>
+    <cmd name="jupyter">
+      <info>Open Jupyter Notebook</info>
+      <help>Open Jupyter Notebook</help>
+      <callback>
+        <exec>
+          <osCommand>jupyter</osCommand>
+          <args>notebook packages/ipython-superuser/python/jupyter-superuser.ipynb</args>
+          <options>
+            <uid>user</uid>
+            <gid>user</gid>
+          </options>
+        </exec>
+      </callback>
+      <params>
+        <param>
+          <type><keypath>exist</keypath></type>
+          <optional/>
+        </param>
+      </params>
+    </cmd>
+  </configureMode>
+</clispec>

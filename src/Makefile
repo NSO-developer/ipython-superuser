@@ -4,7 +4,8 @@ all:	ccl
 include $(NCS_DIR)/src/ncs/build/include.ncs.mk
 
 ccl:	../load-dir/ipython-superuser.ccl \
-	../load-dir/ipython-superuser-j.ccl
+	../load-dir/ipython-superuser-j.ccl \
+        ../load-dir/jupyter-superuser-j.ccl
 
 ../load-dir/%.ccl:	cli/%.cli
 	$(NCSC) -c -o $@ $<
